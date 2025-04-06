@@ -1,0 +1,52 @@
+$ forge script script/Deploy.s.sol:DeployScript --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
+[⠊] Compiling...
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  CoffeeSwapToken deployed at: 0x11eb722F721E9da35a7580a555EE36F9271777C5
+  CoffeeSwap deployed at: 0x9bD1Ed61B2a692C1204238B37aCdbC70625068a4
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 4801
+
+Estimated gas price: 0.000000501 gwei
+
+Estimated total gas used for script: 6738070
+
+Estimated amount required: 0.00000000337577307 ETH
+
+==========================
+
+##### world-sepolia
+✅  [Success] Hash: 0x1290773e590c5baf3c551df444a269c51e1dd4a4877c3ecf276880e8eb3403bc
+Contract Address: 0x11eb722F721E9da35a7580a555EE36F9271777C5
+Block: 11673538
+Paid: 0.000000000362688474 ETH (1444974 gas * 0.000000251 gwei)
+
+
+##### world-sepolia
+✅  [Success] Hash: 0x746dc6debacee26e1e342c60707cd36c6866ea6ca48bbec0dff7aa11f9edb542
+Contract Address: 0x9bD1Ed61B2a692C1204238B37aCdbC70625068a4
+Block: 11673538
+Paid: 0.000000000922536695 ETH (3675445 gas * 0.000000251 gwei)
+
+
+##### world-sepolia
+✅  [Success] Hash: 0x37b5044f5a9fff8f4af869b6485b3642e439233ab74847984e0a6cb720ad2736
+Block: 11673538
+Paid: 0.000000000013991995 ETH (55745 gas * 0.000000251 gwei)
+
+✅ Sequence #1 on world-sepolia | Total Paid: 0.000000001299217164 ETH (5176164 gas * avg 0.000000251 gwei)                                         
+                                                                                                                                                    
+                                                                                                                                                    
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Transactions saved to: C:/Users/forbu/Documents/coffeswap/coffeeswap-contracts/broadcast\Deploy.s.sol\4801\run-latest.json
+
+Sensitive values saved to: C:/Users/forbu/Documents/coffeswap/coffeeswap-contracts/cache\Deploy.s.sol\4801\run-latest.json
